@@ -20,6 +20,8 @@ class JKDefaultStyle(Style):
     styles = {
         # My changes
         Comment: "noitalic #408080",
+        # Do not highlight errors, since 2.0_dp in fortran is NOT an error
+        #Error:                     "border:#FF0000",
 
         # From default
         Whitespace:                "#bbbbbb",
@@ -65,7 +67,5 @@ class JKDefaultStyle(Style):
         Generic.Strong:            "bold",
         Generic.Prompt:            "bold #000080",
         Generic.Output:            "#888",
-        Generic.Traceback:         "#04D",
-
-        Error:                     "border:#FF0000"
+        Generic.Traceback:         "#04D"
         }

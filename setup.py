@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(name = 'jkstyles',
-      version = '1',
+      version = '3',
       description = 'Some pygment styles for LaTeX primarily.',
       author = 'Jonas Kalderstam',
       author_email = 'jonas@kalderstam.se',
