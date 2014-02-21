@@ -1,1 +1,1 @@
-from jkdefault import *
+from .jkdefault import *
